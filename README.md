@@ -1,6 +1,8 @@
+# GO HTTP SERVER COMPARISION
+
 To compare http server performance in local environment
 
-# Frameworks
+## Frameworks
 
 ### Kami
 
@@ -47,11 +49,12 @@ Requests/sec:  69579.18
 Transfer/sec:      9.82MB
 ```
 
-# Run benchmark
+## Run benchmark
 
 Start http server
 
 ```
+$ go get
 $ go run raw.go
 ```
 
